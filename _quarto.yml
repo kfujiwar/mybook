@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "CFのタイトル"
+  author: "K.Fujiwara"
+  date: today
+  
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+lang: ja
+
+bibliography: references.bib
+
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: cosmo
+  pdf:
+    pdf-engine: lualatex
+    documentclass: ltjsbook
